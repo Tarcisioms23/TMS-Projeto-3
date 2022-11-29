@@ -35,6 +35,6 @@ public class EmailModel implements Serializable{
 	private String text;
 	
 	private LocalDateTime senDateEmail;
-	private StatusEmail statusEmail; // enum para saber se foi enviado ou nao
+	private StatusEmail statusEmail; // criar esse  enum e importar ele aqui.
 
 }
