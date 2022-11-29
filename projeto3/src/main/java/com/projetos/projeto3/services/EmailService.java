@@ -13,7 +13,7 @@ public class EmailService {
 	EmailRepository emailRepository;
 
 	public void sendEmail(EmailModel emailModel) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
