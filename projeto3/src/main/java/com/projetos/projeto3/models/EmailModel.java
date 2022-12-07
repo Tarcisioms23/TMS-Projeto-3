@@ -3,10 +3,7 @@ package com.projetos.projeto3.models;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -15,9 +12,12 @@ import com.projetos.projeto3.enums.StatusEmail;
 import lombok.Data;
 
 
-@Data // LOMBOK NAO PRECISAR COLOCAR GETSET E CONSTRUTORES
+
+
+@Data// LOMBOK NAO PRECISAR COLOCAR GETSET E CONSTRUTORES
 @Entity
 @Table(name = "TB_EMAIL")
+
 public class EmailModel implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
@@ -34,7 +34,7 @@ public class EmailModel implements Serializable{
 	@Column(columnDefinition = "TEXT") //  colocar  texto pode ser maior que 250 caracteres 
 	private String text;
 	
-	private LocalDateTime senDateEmail;
+	private LocalDateTime sendDateEmail;
 	private StatusEmail statusEmail; // criar esse  enum e importar ele aqui.
 
 }
