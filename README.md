@@ -10,8 +10,8 @@
  - http://localhost:8091/api/projeto_3/sending
 
 ## 2 Local da documentação criada para apoio:
- [Local seção e pagina oneNote (https://github.com/Tarcisioms23/TMS-Projeto-3/tree/master/projeto3/arquivos)
- [pagina oneNote (https://github.com/Tarcisioms23/TMS-Projeto-3/blob/master/projeto3/arquivos/Projeto%203%20-%20Spring%20enviar%20Email.one)
+ [Local seção e pagina oneNote](https://github.com/Tarcisioms23/TMS-Projeto-3/tree/master/projeto3/arquivos)
+ [pagina oneNote](https://github.com/Tarcisioms23/TMS-Projeto-3/blob/master/projeto3/arquivos/Projeto%203%20-%20Spring%20enviar%20Email.one)
 
 ## 3 Link do repositorio da Collection do Postman:
  - [Collection Produtos - Postman](https://github.com/Tarcisioms23/TMS-Projeto-3/blob/master/projeto3/arquivos/Projeto_3.postman_collection.json)
